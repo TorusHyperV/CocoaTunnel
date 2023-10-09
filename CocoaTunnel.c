@@ -1,4 +1,4 @@
-// CuantoTunnel.c - An Xbox One pure C flash dumper
+// CocoaTunnel.c - An Xbox One pure C flash dumper
 // TorusHyperV (c) 2023
 
 //////////////////////////////////////////////////
@@ -28,16 +28,16 @@ LPCWSTR      SYSTEMOS_FLASH_FILE = L"\\\\.\\Xvuc\\Flash";
 void ShowUsage()
 {
 	printf("Usage:\n");
-	printf("CuantoTunnel.exe [dump_path]\n");
+	printf("CocoaTunnel.exe [dump_path]\n");
 	printf("                 Ensure you have at least 5Gb of storage\n");
 	printf("                 available in the drive letter of [dump_path]\n\n");
-	printf("Example: CuantoTunnel.exe E:\\my_nand.bin\n");
+	printf("Example: CocoaTunnel.exe E:\\my_nand.bin\n");
 }
 
 void ShowMenu()
 {
 	printf("==========================================================\n");
-	printf("================        CuantoTunnel       ===============\n");
+	printf("================         CocoaTunnel       ===============\n");
 	printf("================   Xbox One Flash Dumper   ===============\n");
 	printf("==========================================================\n\n");
 }
